@@ -1,0 +1,61 @@
+.DataEntry {
+  position: fixed;
+  top: 5rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.DataEntry form {
+  display: flex;
+  width: 80%;
+  border-radius: 20px;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin: 2rem;
+  padding: 2rem;
+}
+.DataInput {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.DataInput input {
+  width: 45%;
+  height: 3rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0 10px;
+}
+.DataInput select {
+  width: 47.2%;
+  height: 3rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 0 10px;
+}
+.DataInput textarea {
+  width: 45%;
+  height: 2rem;
+  margin: 1rem 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 5px 10px;
+  resize: none;
+}
+.DataEntry button {
+  width: 40%;
+  height: 3rem;
+  background-color: blue;
+  color: #fff;
+  font-size: larger;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

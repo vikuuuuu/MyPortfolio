@@ -1,0 +1,72 @@
+#Dashboard {
+  margin-top: 5rem;
+  padding: 1rem 3rem;
+  background-color: #f8f9fa;
+}
+.blur{
+  filter: blur(8px);
+}
+.DashboardNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.CardContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.Card {
+  width: 20%;
+  margin: 2rem;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  border-radius: 20px;
+}
+.Card h4 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Card p {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  /* justify-content: space-between; */
+}
+.AddArrow {
+  display: flex;
+  transition: all 1s;
+  cursor: pointer;
+}
+.AddArrow:hover {
+  gap: 20px;
+}
+.EntryTable {
+  /* margin: 1rem;  */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.EntryTable table{
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.EntryTable th,
+.EntryTable td {
+  padding: 0.5rem 1rem;
+  border: 1px solid #ddd; 
+  text-align: center; 
+}
+
+.EntryTable thead th {
+  background-color: #f2f2f2; 
+  font-weight: bold; 
+}
+.EntryTable td{
+  font-size: smaller;
+}
